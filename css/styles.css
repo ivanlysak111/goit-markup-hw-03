@@ -1,0 +1,128 @@
+/* Fonts:
+
+font replacement (reason - they are not in fonts.google.com):
+
+ Roboto SemiBold (fnt-wigt 600) - Roboto (fnt-wigt 500)
+ Roboto Regular (fnt-wgt 400) - Roboto Condensed (fnt-wgt 400)
+ Roboto Medium (fnt-wigt 500) - Roboto Mono (fnt-wigt 500)
+ Roboto Bold (fnt-wigt 500) - Roboto Slab (fnt-wigt 700)
+ Raleway ExtraBold (fnt-wigt 800) - Raleway (fnt-wigt 800)
+ */
+
+/* ---------------MAIN----------------- */
+
+:root {
+  --color-paramount: #26296b;
+  --color-secondary: #434455;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-paramount);
+}
+.titles {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.subtitles {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.paragraphs {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.lists {
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+}
+
+/* ---------------HEADER----------------- */
+
+.logo {
+  color: var(--color-paramount);
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.heder-logo {
+  color: #4d5ae5;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-secondary);
+}
+
+.header-tel,
+.header-email {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ---------------Section №1: Hero----------------- */
+
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* ---------------Section №2: Benefits----------------- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ---------------Footer----------------- */
+
+.footer-paragraph {
+  color: #e7e9fc;
+}
