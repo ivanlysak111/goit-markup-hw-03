@@ -78,7 +78,9 @@ body {
 .header-link:focus {
   color: var(--color-secondary);
 }
-
+.header-link:active {
+    color: #4D5AE5;
+}
 .header-tel,
 .header-email {
   color: var(--color-secondary);
@@ -125,4 +127,21 @@ body {
 
 .footer-paragraph {
   color: #e7e9fc;
+}
+
+/* ---------------Portfolio page----------------- */
+
+.item-btn {
+font-family: 'Roboto';
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #4D5AE5;
+}
+
+.item-btn:hover,
+.item-btn:focus
+ {
+color: #FFFFFF;
 }
