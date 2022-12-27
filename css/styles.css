@@ -8,6 +8,20 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-paramount);
 }
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
 .titles {
   font-weight: 600;
   font-size: 36px;
@@ -39,6 +53,14 @@ body {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
 /* ---------------HEADER----------------- */
 
 .logo {
@@ -51,6 +73,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.header{
+padding-top: 24px;
+padding-bottom: 24px;
 }
 
 .heder-logo {
