@@ -75,9 +75,10 @@ ol {
   text-transform: uppercase;
 }
 
-.header{
+.header-list{
 padding-top: 24px;
 padding-bottom: 24px;
+display: flex;
 }
 
 .heder-logo {
@@ -106,6 +107,9 @@ padding-bottom: 24px;
   letter-spacing: 0.02em;
 }
 
+.header{
+  display: flex;
+}
 /* ---------------Section №1: Hero----------------- */
 
 .hero-title {
