@@ -73,12 +73,12 @@ ol {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 77px;
 }
 
-.header-list{
-padding-top: 24px;
-padding-bottom: 24px;
-display: flex;
+.header-list {
+  display: flex;
+  gap: 40px;
 }
 
 .heder-logo {
@@ -107,9 +107,18 @@ display: flex;
   letter-spacing: 0.02em;
 }
 
-.header{
+.header > .container {
+  padding-top: 24px;
+  padding-bottom: 24px;
   display: flex;
+  align-items: center;
 }
+
+.header-contacts {
+  margin-left: auto;
+  gap: 40px;
+}
+
 /* ---------------Section №1: Hero----------------- */
 
 .hero-title {
@@ -118,6 +127,9 @@ display: flex;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  display: block;
+  margin: auto;
+ 
 }
 
 .hero-btn {
@@ -128,6 +140,12 @@ display: flex;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  display: block;
+  margin: auto;
 }
 
 /* ---------------Section №2: Benefits----------------- */
