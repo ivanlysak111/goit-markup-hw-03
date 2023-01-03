@@ -183,6 +183,8 @@ header > .container {
 /* ---------------Section №3: What are we doing----------------- */
 .wawd-list {
   gap: 24px;
+  padding-bottom: 137px;
+  text-align: center;
 }
 
 .wawd-item {
@@ -190,7 +192,6 @@ header > .container {
 }
 
 .wawd-wrap {
-  padding-bottom: 137px;
 }
 /* ---------------Footer----------------- */
 
