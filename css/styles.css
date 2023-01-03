@@ -28,6 +28,8 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
+  text-align: center;
 }
 
 .subtitles {
@@ -35,6 +37,7 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .paragraphs {
@@ -61,6 +64,9 @@ ol {
   outline: 1px solid red;
 }
 
+.flex-wrap {
+  display: flex;
+}
 /* ---------------HEADER----------------- */
 
 .logo {
@@ -107,7 +113,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.header > .container {
+header > .container {
   padding-top: 24px;
   padding-bottom: 24px;
   display: flex;
@@ -127,9 +133,11 @@ ol {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  display: block;
-  margin: auto;
- 
+  text-align: center;
+  padding-top: 192px;
+  padding-left: 318px;
+  padding-right: 318px;
+  padding-bottom: 48px;
 }
 
 .hero-btn {
@@ -164,6 +172,26 @@ ol {
   overflow: hidden;
 }
 
+.benefits-list {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits-item {
+}
+
+/* ---------------Section №3: What are we doing----------------- */
+.wawd-list {
+  gap: 24px;
+}
+
+.wawd-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.wawd-wrap {
+  padding-bottom: 137px;
+}
 /* ---------------Footer----------------- */
 
 .footer-paragraph {
