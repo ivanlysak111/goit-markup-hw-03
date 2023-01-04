@@ -13,30 +13,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-    <header class="hrader">
+   <header>
       <div class="container">
-      <a class="logo links" href="#"
-        ><span class="heder-logo">Web</span>Studio</a
-      >
-      <nav>
-        <ul class="lists">
-          <li><a class="header-link links" href="./index.html">Studio</a></li>
-          <li><a class="header-link links" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="header-link links" href="#">Contacts</a></li>
+        <a class="logo links" href="#"
+          ><span class="heder-logo">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="lists header-list">
+            <li><a class="header-link links" href="./index.html">Studio</a></li>
+            <li>
+              <a class="header-link links" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="header-link links" href="#">Contacts</a></li>
+          </ul>
+        </nav>
+        <ul class="lists header-list header-contacts">
+          <li>
+            <a class="header-email links" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="header-tel links" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="lists">
-        <li>
-          <a class="header-email links" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="header-tel links" href="tel:+110001111111"
-            >+11 (000) 111-11-11</a
-          >
-        </li>
-      </ul>
       </div>
     </header>
   <main>
@@ -47,7 +49,7 @@
     <!-- Section: Menu -->
     <section>
   <div class="container">
-    <ul class="lists">
+    <ul class="lists menu-list">
     <li><button type="button" class="item-btn">All</button></li>
     <li><button type="button" class="item-btn">Web Site</button></li>
     <li><button type="button" class="item-btn">App</button></li>
@@ -59,7 +61,7 @@
   <!-- Section: completed projects -->
 <section>
   <div class="container">
-<ul class="lists">
+<ul class="lists project-list">
   <li><img src="./images/first.jpg" alt="complete project 1" width="360"><h3 class="subtitles">Banking App Interface Concept</h3><p class="paragraphs">
 App
   </p></li>
@@ -95,15 +97,16 @@ App
 
 </body>
 
-    <footer class="footer-logo">
+ <footer>
       <div class="container">
-      <a class="logo links" href="#"
-        ><span class="heder-logo">Web</span><span class="footer-logo">Studio</span></a
-      >
-      <p class="paragraphs footer-paragraph">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+        <a class="logo links logo-footer" href="#"
+          ><span class="heder-logo">Web</span
+          ><span class="footer-logo">Studio</span></a
+        >
+        <p class="paragraphs footer-paragraph">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
       </div>
     </footer>
 
