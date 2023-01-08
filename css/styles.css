@@ -1,5 +1,4 @@
 /* ---------------MAIN----------------- */
-
 :root {
   --color-paramount: #2e2f42;
   --color-secondary: #434455;
@@ -61,6 +60,7 @@ ol {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid red;
 }
 
 img {
@@ -68,7 +68,6 @@ img {
 }
 
 /* ---------------HEADER----------------- */
-
 .header {
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
@@ -107,15 +106,22 @@ img {
 .header-link:focus {
   color: var(--color-secondary);
 }
+
 .header-link:active {
   color: #4d5ae5;
 }
+
 .header-tel,
 .header-email {
   color: var(--color-secondary);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-tel:active,
+.header-email:active {
+  color: #404bbf;
 }
 
 header > .container {
@@ -131,7 +137,6 @@ header > .container {
 }
 
 /* ---------------Section №1: Hero----------------- */
-
 .hero {
   padding-top: 192px;
   padding-bottom: 192px;
@@ -160,9 +165,21 @@ header > .container {
   background: #4d5ae5;
   display: block;
   margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #404bbf;
 }
 
 /* ---------------Section №2: Benefits----------------- */
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -179,18 +196,20 @@ header > .container {
 }
 
 .benefits-list {
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
   justify-content: center;
 }
 
 /* ---------------Section №3: What are we doing----------------- */
+.wawd {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .wawd-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .wawd-item {
@@ -200,17 +219,13 @@ header > .container {
 /* ---------------Section №4: Our Team----------------- */
 .team {
   background: #f4f4fd;
-}
-
-.team-title {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-top: 72px;
-  padding-bottom: 111px;
 }
 
 .team-item {
@@ -236,17 +251,39 @@ header > .container {
 }
 
 /* ---------------Footer----------------- */
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #2e2f42;
+}
 
 .footer-paragraph {
   color: #e7e9fc;
+  max-width: 264px;
 }
+
 .footer-logo {
   color: #f4f4fd;
 }
 
-/* ---------------Portfolio page----------------- */
+.logo-footer {
+  padding-bottom: 16px;
+}
 
-.menu-btn {
+/* ---------------Portfolio page----------------- */
+.menu {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.filter {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.filter-btn {
   font-family: "Roboto";
   font-weight: 600;
   font-size: 16px;
@@ -259,8 +296,8 @@ header > .container {
   border-radius: 4px;
 }
 
-.menu-btn:hover,
-.menu-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: #ffffff;
   background: #404bbf;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
@@ -268,43 +305,17 @@ header > .container {
   border-radius: 4px;
 }
 
-.logo-footer {
-  padding-top: 100px;
-  padding-bottom: 16px;
-}
-
-.footer-paragraph {
-  padding-bottom: 100px;
-  max-width: 264px;
-}
-
-/* ---------------Section: Menu----------------- */
-
 .menu-list {
-  display: flex;
-  gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  justify-content: center;
-}
-
-/* ---------------Section: completed projects---------------- */
-
-.project-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 
-.project-list img {
+.menu-list img {
   margin-bottom: 32px;
 }
 
-.project-list p {
+.menu-list p {
   padding-bottom: 32px;
-}
-
-.footer {
-  background: #2e2f42;
 }
