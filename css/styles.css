@@ -66,6 +66,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* ---------------HEADER----------------- */
 .header {
   background: #ffffff;
@@ -179,7 +183,6 @@ header > .container {
   line-height: 1.19;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   padding: 16px 32px;
   background: #4d5ae5;
   display: block;
@@ -308,17 +311,18 @@ header > .container {
   border-radius: 4px;
 }
 
+.menu-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .menu-list {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-}
-
-.menu-list img {
-  margin-bottom: 32px;
-}
-
-.menu-list p {
-  padding-bottom: 32px;
 }
